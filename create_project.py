@@ -240,13 +240,13 @@ def create_project():
     )
     nt, nc = timepoints_and_channels(path)
 
-    # add_lm_boundaries(path, nt)
-    # add_lm_nuclei(path, nt)
+    add_lm_boundaries(path, nt)
+    add_lm_nuclei(path, nt)
 
     seg_paths = [
         './tmp_plantseg/tp_%03i/segmentation.h5' % tp for tp in range(nt)
     ]
-    # add_segmentations(seg_paths)
+    add_segmentations(seg_paths)
     add_table(nt)
 
 
@@ -267,6 +267,6 @@ def make_bookmarks():
 
 
 if __name__ == '__main__':
-    # create_project()
+    create_project()
     prepare_upload()
-    # make_bookmarks()
+    make_bookmarks()
