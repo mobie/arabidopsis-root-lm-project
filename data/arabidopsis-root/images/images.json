@@ -1,0 +1,39 @@
+{
+  "lm-cells": {
+    "color": "randomFromGlasbey",
+    "contrastLimits": [
+      0.0,
+      1000.0
+    ],
+    "storage": {
+      "local": "local/lm-cells.xml",
+      "remote": "remote/lm-cells.xml"
+    },
+    "tableFolder": "tables/lm-cells",
+    "type": "segmentation"
+  },
+  "lm-membranes": {
+    "color": "white",
+    "contrastLimits": [
+      0.0,
+      702.31
+    ],
+    "storage": {
+      "local": "local/lm-membranes.xml",
+      "remote": "remote/lm-membranes.xml"
+    },
+    "type": "image"
+  },
+  "lm-nuclei": {
+    "color": "white",
+    "contrastLimits": [
+      0.0,
+      24.38
+    ],
+    "storage": {
+      "local": "local/lm-nuclei.xml",
+      "remote": "remote/lm-nuclei.xml"
+    },
+    "type": "image"
+  }
+}
