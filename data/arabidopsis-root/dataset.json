@@ -1,0 +1,108 @@
+{
+  "is2d": false,
+  "sources": {
+    "lm-cells": {
+      "segmentation": {
+        "imageDataLocations": {
+          "local": "images/local/lm-cells.xml",
+          "remote": "images/remote/lm-cells.xml"
+        },
+        "tableDataLocation": "tables/lm-cells",
+        "view": {
+          "isExclusive": false,
+          "sourceDisplays": [
+            {
+              "segmentationDisplay": {
+                "lut": "glasbey",
+                "name": "lm-cells",
+                "opacity": 0.75,
+                "sources": [
+                  "lm-cells"
+                ]
+              }
+            }
+          ],
+          "uiSelectionGroup": "lm-segmentation"
+        }
+      }
+    },
+    "lm-membranes": {
+      "image": {
+        "imageDataLocations": {
+          "local": "images/local/lm-membranes.xml",
+          "remote": "images/remote/lm-membranes.xml"
+        },
+        "view": {
+          "isExclusive": false,
+          "sourceDisplays": [
+            {
+              "imageDisplay": {
+                "color": "white",
+                "contrastLimits": [
+                  0.0,
+                  702.31
+                ],
+                "name": "lm-membranes",
+                "opacity": 1.0,
+                "sources": [
+                  "lm-membranes"
+                ]
+              }
+            }
+          ],
+          "uiSelectionGroup": "lm"
+        }
+      }
+    },
+    "lm-nuclei": {
+      "image": {
+        "imageDataLocations": {
+          "local": "images/local/lm-nuclei.xml",
+          "remote": "images/remote/lm-nuclei.xml"
+        },
+        "view": {
+          "isExclusive": false,
+          "sourceDisplays": [
+            {
+              "imageDisplay": {
+                "color": "white",
+                "contrastLimits": [
+                  0.0,
+                  24.38
+                ],
+                "name": "lm-nuclei",
+                "opacity": 1.0,
+                "sources": [
+                  "lm-nuclei"
+                ]
+              }
+            }
+          ],
+          "uiSelectionGroup": "lm"
+        }
+      }
+    }
+  },
+  "views": {
+    "default": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              702.31
+            ],
+            "name": "lm-membranes",
+            "opacity": 1.0,
+            "sources": [
+              "lm-membranes"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "bookmark"
+    }
+  }
+}

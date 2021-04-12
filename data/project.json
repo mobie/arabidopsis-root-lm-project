@@ -1,0 +1,7 @@
+{
+  "datasets": [
+    "arabidopsis-root"
+  ],
+  "defaultDataset": "arabidopsis-root",
+  "specVersion": "0.2.0"
+}
