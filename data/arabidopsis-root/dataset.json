@@ -83,6 +83,7 @@
       }
     }
   },
+  "timepoints": 52,
   "views": {
     "default": {
       "isExclusive": true,
