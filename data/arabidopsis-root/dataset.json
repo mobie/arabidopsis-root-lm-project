@@ -4,8 +4,8 @@
     "lm-cells": {
       "segmentation": {
         "imageDataLocations": {
-          "local": "images/local/lm-cells.xml",
-          "remote": "images/remote/lm-cells.xml"
+          "fileSystem": "images/local/lm-cells.xml",
+          "s3store": "images/remote/lm-cells.xml"
         },
         "tableDataLocation": "tables/lm-cells",
         "view": {
@@ -29,8 +29,8 @@
     "lm-membranes": {
       "image": {
         "imageDataLocations": {
-          "local": "images/local/lm-membranes.xml",
-          "remote": "images/remote/lm-membranes.xml"
+          "fileSystem": "images/local/lm-membranes.xml",
+          "s3store": "images/remote/lm-membranes.xml"
         },
         "view": {
           "isExclusive": false,
@@ -57,8 +57,8 @@
     "lm-nuclei": {
       "image": {
         "imageDataLocations": {
-          "local": "images/local/lm-nuclei.xml",
-          "remote": "images/remote/lm-nuclei.xml"
+          "fileSystem": "images/local/lm-nuclei.xml",
+          "s3store": "images/remote/lm-nuclei.xml"
         },
         "view": {
           "isExclusive": false,
