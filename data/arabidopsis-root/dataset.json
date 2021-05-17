@@ -7,23 +7,7 @@
           "fileSystem": "images/local/lm-cells.xml",
           "s3store": "images/remote/lm-cells.xml"
         },
-        "tableDataLocation": "tables/lm-cells",
-        "view": {
-          "isExclusive": false,
-          "sourceDisplays": [
-            {
-              "segmentationDisplay": {
-                "lut": "glasbey",
-                "name": "lm-cells",
-                "opacity": 0.75,
-                "sources": [
-                  "lm-cells"
-                ]
-              }
-            }
-          ],
-          "uiSelectionGroup": "lm-segmentation"
-        }
+        "tableDataLocation": "tables/lm-cells"
       }
     },
     "lm-membranes": {
@@ -31,26 +15,6 @@
         "imageDataLocations": {
           "fileSystem": "images/local/lm-membranes.xml",
           "s3store": "images/remote/lm-membranes.xml"
-        },
-        "view": {
-          "isExclusive": false,
-          "sourceDisplays": [
-            {
-              "imageDisplay": {
-                "color": "white",
-                "contrastLimits": [
-                  0.0,
-                  702.31
-                ],
-                "name": "lm-membranes",
-                "opacity": 1.0,
-                "sources": [
-                  "lm-membranes"
-                ]
-              }
-            }
-          ],
-          "uiSelectionGroup": "lm"
         }
       }
     },
@@ -59,26 +23,6 @@
         "imageDataLocations": {
           "fileSystem": "images/local/lm-nuclei.xml",
           "s3store": "images/remote/lm-nuclei.xml"
-        },
-        "view": {
-          "isExclusive": false,
-          "sourceDisplays": [
-            {
-              "imageDisplay": {
-                "color": "white",
-                "contrastLimits": [
-                  0.0,
-                  24.38
-                ],
-                "name": "lm-nuclei",
-                "opacity": 1.0,
-                "sources": [
-                  "lm-nuclei"
-                ]
-              }
-            }
-          ],
-          "uiSelectionGroup": "lm"
         }
       }
     }
@@ -104,6 +48,62 @@
         }
       ],
       "uiSelectionGroup": "bookmark"
+    },
+    "lm-cells": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "lm-cells",
+            "opacity": 0.75,
+            "sources": [
+              "lm-cells"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "lm-segmentation"
+    },
+    "lm-membranes": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              702.31
+            ],
+            "name": "lm-membranes",
+            "opacity": 1.0,
+            "sources": [
+              "lm-membranes"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "lm"
+    },
+    "lm-nuclei": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              24.38
+            ],
+            "name": "lm-nuclei",
+            "opacity": 1.0,
+            "sources": [
+              "lm-nuclei"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "lm"
     }
   }
 }
