@@ -3,26 +3,42 @@
   "sources": {
     "lm-cells": {
       "segmentation": {
-        "imageDataLocations": {
-          "fileSystem": "images/local/lm-cells.xml",
-          "s3store": "images/remote/lm-cells.xml"
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/lm-cells.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/lm-cells.xml"
+          }
         },
-        "tableDataLocation": "tables/lm-cells"
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/lm-cells"
+          }
+        }
       }
     },
     "lm-membranes": {
       "image": {
-        "imageDataLocations": {
-          "fileSystem": "images/local/lm-membranes.xml",
-          "s3store": "images/remote/lm-membranes.xml"
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/lm-membranes.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/lm-membranes.xml"
+          }
         }
       }
     },
     "lm-nuclei": {
       "image": {
-        "imageDataLocations": {
-          "fileSystem": "images/local/lm-nuclei.xml",
-          "s3store": "images/remote/lm-nuclei.xml"
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/lm-nuclei.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/lm-nuclei.xml"
+          }
         }
       }
     }
