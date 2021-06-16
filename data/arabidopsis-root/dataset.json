@@ -1,5 +1,5 @@
 {
-  "is2d": false,
+  "is2D": false,
   "sources": {
     "lm-cells": {
       "segmentation": {
@@ -75,6 +75,9 @@
             "opacity": 0.75,
             "sources": [
               "lm-cells"
+            ],
+            "tables": [
+              "default.tsv"
             ]
           }
         }
