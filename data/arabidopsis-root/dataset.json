@@ -1,0 +1,143 @@
+{
+  "is2D": false,
+  "sources": {
+    "lm-cells": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/lm-cells.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/lm-cells.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/lm-cells"
+          }
+        }
+      }
+    },
+    "lm-membranes": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/lm-membranes.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/lm-membranes.xml"
+          }
+        }
+      }
+    },
+    "lm-nuclei": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/lm-nuclei.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/lm-nuclei.xml"
+          }
+        }
+      }
+    }
+  },
+  "timepoints": 52,
+  "views": {
+    "default": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              702.31
+            ],
+            "name": "lm-membranes",
+            "opacity": 1.0,
+            "sources": [
+              "lm-membranes"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "bookmark"
+    },
+    "lm-cells": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "lm-cells",
+            "opacity": 0.75,
+            "sources": [
+              "lm-cells"
+            ],
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "lm-segmentation"
+    },
+    "lm-membranes": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              702.31
+            ],
+            "name": "lm-membranes",
+            "opacity": 1.0,
+            "sources": [
+              "lm-membranes"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "lm"
+    },
+    "lm-nuclei": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              24.38
+            ],
+            "name": "lm-nuclei",
+            "opacity": 1.0,
+            "sources": [
+              "lm-nuclei"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "lm"
+    },
+    "halftime": {
+        "isExclusive": false,
+        "viewerTransform": {
+            "timepoint": 26
+        },
+        "uiSelectionGroup": "bookmark"
+    },
+    "somewhere": {
+        "isExclusive": false,
+        "viewerTransform": {
+            "normalizedAffine": [1.0, 0.0, 0.0, 2.0, 0.0, 1.0, 0.0, 3.0, 0.0, 0.0, 1.0, 4.0],
+            "timepoint": 3
+        },
+        "uiSelectionGroup": "bookmark"
+    }
+  }
+}
