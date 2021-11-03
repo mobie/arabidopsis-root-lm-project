@@ -1,4 +1,4 @@
-# arabidopsis-root-lm-datasets
+# arabidopsis-root-lm
 
 MoBIE project with data from the publication [Accurate and versatile 3D segmentation of plant tissues at cellular resolution](https://elifesciences.org/articles/57613). The data was kindly shared by Adrian Wolny.
 
