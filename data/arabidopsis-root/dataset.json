@@ -65,6 +65,13 @@
       ],
       "uiSelectionGroup": "bookmark"
     },
+    "halftime": {
+      "isExclusive": false,
+      "uiSelectionGroup": "bookmark",
+      "viewerTransform": {
+        "timepoint": 26
+      }
+    },
     "lm-cells": {
       "isExclusive": false,
       "sourceDisplays": [
@@ -124,20 +131,26 @@
       ],
       "uiSelectionGroup": "lm"
     },
-    "halftime": {
-        "isExclusive": false,
-        "viewerTransform": {
-            "timepoint": 26
-        },
-        "uiSelectionGroup": "bookmark"
-    },
     "somewhere": {
-        "isExclusive": false,
-        "viewerTransform": {
-            "normalizedAffine": [1.0, 0.0, 0.0, 2.0, 0.0, 1.0, 0.0, 3.0, 0.0, 0.0, 1.0, 4.0],
-            "timepoint": 3
-        },
-        "uiSelectionGroup": "bookmark"
+      "isExclusive": false,
+      "uiSelectionGroup": "bookmark",
+      "viewerTransform": {
+        "normalizedAffine": [
+          1.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          1.0,
+          0.0,
+          3.0,
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        "timepoint": 3
+      }
     }
   }
 }
