@@ -151,6 +151,252 @@
         ],
         "timepoint": 3
       }
+    },
+    "use-case1": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              1166.7476029999998
+            ],
+            "name": "lm-membranes",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "lm-membranes"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "boundaryThickness": 10.0,
+            "lut": "glasbey",
+            "name": "lm-cells",
+            "opacity": 0.3387,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "selectedSegmentIds": [],
+            "showAsBoundaries": true,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "lm-cells"
+            ],
+            "tables": [
+              "default.tsv"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "bookmark",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.0032312236145978996,
+          1.4201775338115981e-19,
+          0.0,
+          -0.5477420664733031,
+          1.4201775338115981e-19,
+          0.0032312236145979004,
+          -1.4201775338115981e-19,
+          -0.2573967399553594,
+          0.0,
+          1.4201775338115981e-19,
+          0.0032312236145978996,
+          -0.17758609380077264
+        ],
+        "timepoint": 27
+      }
+    },
+    "use-case2": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              1166.7476029999998
+            ],
+            "name": "lm-membranes",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "lm-membranes"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "boundaryThickness": 10.0,
+            "colorByColumn": "track_id",
+            "lut": "glasbeyZeroTransparent",
+            "name": "lm-cells",
+            "opacity": 0.3387,
+            "randomColorSeed": 50,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "selectedSegmentIds": [],
+            "showAsBoundaries": true,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "lm-cells"
+            ],
+            "tables": [
+              "default.tsv"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "bookmark",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.003927572498691339,
+          1.7262346684575841e-19,
+          0.0,
+          -0.6650901010133576,
+          1.7262346684575841e-19,
+          0.00392757249869134,
+          -1.7262346684575841e-19,
+          -0.3116398464549232,
+          0.0,
+          1.7262346684575841e-19,
+          0.003927572498691339,
+          -0.19604521891405724
+        ],
+        "timepoint": 27
+      }
+    },
+    "use-case3": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              1166.7476029999998
+            ],
+            "name": "lm-membranes",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "lm-membranes"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "boundaryThickness": 10.0,
+            "colorByColumn": "track_id",
+            "lut": "glasbeyZeroTransparent",
+            "name": "lm-cells",
+            "opacity": 0.3387,
+            "randomColorSeed": 50,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "selectedSegmentIds": [
+              "lm-cells;9;116",
+              "lm-cells;16;116",
+              "lm-cells;43;186",
+              "lm-cells;42;151",
+              "lm-cells;34;164",
+              "lm-cells;5;114",
+              "lm-cells;1;74",
+              "lm-cells;38;163",
+              "lm-cells;30;159",
+              "lm-cells;32;174",
+              "lm-cells;19;132",
+              "lm-cells;47;197",
+              "lm-cells;28;128",
+              "lm-cells;14;126",
+              "lm-cells;22;129",
+              "lm-cells;31;166",
+              "lm-cells;11;103",
+              "lm-cells;18;119",
+              "lm-cells;44;203",
+              "lm-cells;26;135",
+              "lm-cells;36;175",
+              "lm-cells;4;21",
+              "lm-cells;7;113",
+              "lm-cells;15;125",
+              "lm-cells;37;172",
+              "lm-cells;2;109",
+              "lm-cells;45;205",
+              "lm-cells;10;109",
+              "lm-cells;41;168",
+              "lm-cells;48;151",
+              "lm-cells;6;113",
+              "lm-cells;27;155",
+              "lm-cells;40;152",
+              "lm-cells;20;135",
+              "lm-cells;46;194",
+              "lm-cells;13;117",
+              "lm-cells;25;143",
+              "lm-cells;33;171",
+              "lm-cells;3;112",
+              "lm-cells;21;118",
+              "lm-cells;29;149",
+              "lm-cells;39;150",
+              "lm-cells;24;133",
+              "lm-cells;8;18",
+              "lm-cells;17;129",
+              "lm-cells;12;109",
+              "lm-cells;23;132",
+              "lm-cells;35;166"
+            ],
+            "showAsBoundaries": true,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "lm-cells"
+            ],
+            "tables": [
+              "default.tsv"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "bookmark",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.003927572498691339,
+          1.7262346684575841e-19,
+          0.0,
+          -0.6650901010133576,
+          1.7262346684575841e-19,
+          0.00392757249869134,
+          -1.7262346684575841e-19,
+          -0.3116398464549232,
+          0.0,
+          1.7262346684575841e-19,
+          0.003927572498691339,
+          -0.19604521891405724
+        ],
+        "timepoint": 36
+      }
     }
   }
 }
