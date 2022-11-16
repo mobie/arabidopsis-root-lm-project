@@ -45,6 +45,46 @@
   },
   "timepoints": 52,
   "views": {
+      "Figure1c": {
+        "uiSelectionGroup": "mobie-paper",
+        "sourceDisplays": [
+          {
+            "imageDisplay": {
+              "sources": [
+                "lm-membranes"
+              ],
+              "color": "r=255,g=255,b=255,a=255",
+              "contrastLimits": [
+                0.0,
+                702.31
+              ],
+              "showImagesIn3d": false,
+              "name": "lm-membranes",
+              "opacity": 1.0,
+              "visible": true,
+              "blendingMode": "sum"
+            }
+          }
+        ],
+        "viewerTransform": {
+          "normalizedAffine": [
+            0.0039118618726125395,
+            0.0,
+            0.0,
+            -0.6114615261410186,
+            0.0,
+            0.0039118618726125395,
+            0.0,
+            -0.30900979224042663,
+            0.0,
+            0.0,
+            0.0039118618726125395,
+            -0.23715662602713533
+          ],
+          "timepoint": 23
+        },
+        "isExclusive": true
+    },
     "default": {
       "isExclusive": true,
       "sourceDisplays": [
